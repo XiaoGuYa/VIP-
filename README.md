@@ -1,8 +1,9 @@
 # 视频解析助手
 ![TamperMonkey v4.9](https://img.shields.io/badge/TamperMonkey-v4.8-brightgreen.svg) ![Chrome x64 v60.4](https://img.shields.io/badge/Chrome%20x64-v73.0-brightgreen.svg) ![Safari v11.0.3](https://img.shields.io/badge/Safari%20-v12.0-brightgreen.svg)
 
-### 安装地址
-[安装地址](	https://greasyfork.org/zh-CN/scripts/397532-%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90%E5%8A%A9%E6%89%8B)
+### 安装方法
+首先下载并安装：[Tampermonkey](	https://www.chrome-api.com/?id=dhdgffkkebhmkfjojejmpbldmpobfkfo)
+然后打开脚本=》[安装地址](	https://greasyfork.org/zh-CN/scripts/397532-%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90%E5%8A%A9%E6%89%8B)
 
 ### 插件功能
 - 解析各大视频网站视频，支持优酷，爱奇艺，乐视，腾讯视频，土豆，芒果TV，bilibili，PPTV，暴风，音悦台，适合某些网络下无法打开视频网站的情况。
