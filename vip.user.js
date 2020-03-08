@@ -47,7 +47,7 @@ let main = {
       if (location.host.match(/youku|iqiyi|le|qq|tudou|mgtv|sohu|acfun|bilibili|pptv|baofeng|yinyuetai/ig)) {
         let mainButton = '<div class="h-icon-play" title="点击显示解析地址"><svg viewBox="0 0 512 512"><path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z"></path></svg></div>';
         let apiList = '<ol class="h-ol"></ol>';
-        let github = '<iframe src="https://ghbtns.com/github-btn.html?user=syhyz1990&repo=media&type=star&count=true" frameborder="0" scrolling="0" style="height: 20px;max-width: 110px;padding: 0 5px;box-sizing: border-box;margin-top: 10px;"></iframe>';
+       
 
         $(top.document.body).append(mainButton);
         $(top.document.body).append(apiList);
@@ -57,7 +57,7 @@ let main = {
         });
         //反馈按钮
         $('.h-ol').append(`<li><a target="_blank" style="color: #999;" href="https://github.com/guchen666/VIP-/issues">点击反馈</a></li>`);
-        $('.h-ol').append(github);
+
 
         $(top.document.body).on('click', '.h-icon-play', () => {
           $('.h-ol').fadeToggle('fast');
